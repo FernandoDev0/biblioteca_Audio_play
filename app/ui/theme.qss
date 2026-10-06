@@ -1,0 +1,323 @@
+/* Audience: quem lê um livro longo em voz, à noite
+   Voice: institutional + striking
+   Type: Fraunces / Source Sans 3
+   Signal: #C6A36A on #100E0C / cream #F4EFE6
+   Signature move: fio de ouro no meio das duas páginas abertas
+*/
+
+* {
+  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  color: #F4EFE6;
+}
+
+QWidget {
+  background: #100E0C;
+  color: #F4EFE6;
+}
+
+QMainWindow, #Shell {
+  background: #100E0C;
+}
+
+#Barra {
+  background: #100E0C;
+  border-bottom: 1px solid #3A3228;
+}
+
+#Marca {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 22px;
+  background: transparent;
+}
+
+#Selo {
+  background: #C6A36A;
+}
+
+QPushButton#Nav {
+  background: transparent;
+  color: #B7A99A;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 8px 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+QPushButton#Nav:hover {
+  color: #F4EFE6;
+}
+
+QPushButton#Nav:checked {
+  color: #F4EFE6;
+  border-bottom: 2px solid #C6A36A;
+}
+
+QPushButton#Nav:focus {
+  color: #F4EFE6;
+}
+
+QLabel#Kicker {
+  color: #D4B483;
+  font-size: 13px;
+  font-weight: 600;
+  background: transparent;
+}
+
+QLabel#Display {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 48px;
+  font-weight: 500;
+  background: transparent;
+  color: #F4EFE6;
+}
+
+QLabel#TituloLivro {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 32px;
+  font-weight: 500;
+  background: transparent;
+  color: #F4EFE6;
+}
+
+QLabel#Corpo, QLabel#Mudo {
+  font-size: 17px;
+  background: transparent;
+  color: #F4EFE6;
+}
+
+QLabel#Mudo, QLabel#Folio, QLabel#Meta {
+  color: #B7A99A;
+  font-size: 14px;
+  background: transparent;
+}
+
+QLabel#KickerBloco {
+  color: #D4B483;
+  font-size: 12px;
+  font-weight: 600;
+  background: transparent;
+}
+
+QPushButton#Primario {
+  background: #C6A36A;
+  color: #1A1408;
+  border: 1px solid #C6A36A;
+  border-radius: 2px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 20px;
+}
+
+QPushButton#Primario:hover {
+  background: #D4B57E;
+  border-color: #D4B57E;
+}
+
+QPushButton#Primario:pressed {
+  background: #A8884E;
+  border-color: #A8884E;
+}
+
+QPushButton#Primario:disabled {
+  background: #3A3228;
+  color: #8A8075;
+  border-color: #3A3228;
+}
+
+QPushButton#Primario:focus {
+  border: 2px solid #F4EFE6;
+}
+
+QPushButton#Secundario {
+  background: transparent;
+  color: #F4EFE6;
+  border: 1px solid #3A3228;
+  border-radius: 2px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 20px;
+}
+
+QPushButton#Secundario:hover {
+  border-color: #C6A36A;
+  color: #D4B483;
+}
+
+QPushButton#Secundario:disabled {
+  color: #8A8075;
+  border-color: #2A2622;
+}
+
+QPushButton#Secundario:focus {
+  border: 1px solid #F4EFE6;
+}
+
+QLineEdit {
+  background: #171410;
+  color: #F4EFE6;
+  border: 1px solid #3A3228;
+  border-radius: 2px;
+  padding: 8px 12px;
+  font-size: 16px;
+  selection-background-color: #E3B23C;
+  selection-color: #1A1408;
+}
+
+QLineEdit:focus {
+  border: 1px solid #C6A36A;
+}
+
+QProgressBar {
+  background: #2A2622;
+  border: none;
+  max-height: 2px;
+  min-height: 2px;
+  text-align: center;
+}
+
+QProgressBar::chunk {
+  background: #C6A36A;
+}
+
+#Pagina {
+  background: #171410;
+  border: 1px solid #3A3228;
+}
+
+#Fio {
+  background: #C6A36A;
+}
+
+#Player {
+  background: #100E0C;
+  border-top: 1px solid #C6A36A;
+}
+
+#BlocoAudio, #BlocoMudo, #BlocoCodigo {
+  background: transparent;
+}
+
+#BlocoAudio:hover {
+  background: #221C17;
+}
+
+QTextEdit {
+  background: transparent;
+  color: #F4EFE6;
+  border: none;
+  font-size: 17px;
+  selection-background-color: #E3B23C;
+  selection-color: #1A1408;
+}
+
+QTextEdit#Codigo {
+  background: #241C16;
+  color: #E7D7C3;
+  font-family: Consolas, "Cascadia Mono", monospace;
+  font-size: 14px;
+  padding: 0;
+}
+
+QPushButton#Copiar {
+  background: transparent;
+  color: #D4B483;
+  border: 1px solid #3A3228;
+  border-radius: 2px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  min-height: 0;
+}
+
+QPushButton#Copiar:hover {
+  border-color: #C6A36A;
+  color: #F4EFE6;
+}
+
+QPushButton#Copiar:focus {
+  border: 1px solid #F4EFE6;
+}
+
+QTextEdit#Folha {
+  color: #B7A99A;
+  font-size: 13px;
+}
+
+QTextEdit#FaixaAudio {
+  background: transparent;
+  font-size: 16px;
+}
+
+QScrollArea {
+  background: #100E0C;
+  border: none;
+}
+
+QScrollArea > QWidget > QWidget {
+  background: transparent;
+}
+
+QScrollBar:vertical {
+  background: #100E0C;
+  width: 10px;
+  margin: 0;
+}
+
+QScrollBar::handle:vertical {
+  background: #3A3228;
+  min-height: 40px;
+}
+
+QScrollBar::handle:vertical:hover {
+  background: #C6A36A;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+  height: 0;
+  background: none;
+}
+
+QScrollBar:horizontal {
+  height: 0;
+  background: none;
+}
+
+QSlider::groove:horizontal {
+  height: 2px;
+  background: #3A3228;
+}
+
+QSlider::sub-page:horizontal {
+  background: #C6A36A;
+}
+
+QSlider::handle:horizontal {
+  background: #C6A36A;
+  width: 12px;
+  height: 12px;
+  margin: -5px 0;
+}
+
+QSlider::handle:horizontal:focus {
+  background: #F4EFE6;
+}
+
+QLabel#Erro {
+  color: #E2B4A8;
+  background: transparent;
+  font-size: 15px;
+}
+
+#LinhaAcervo {
+  background: transparent;
+  border-bottom: 1px solid #3A3228;
+}
+
+QLabel#NomeLivro {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 26px;
+  background: transparent;
+}

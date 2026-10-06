@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+biblioteca/banco/*
+!biblioteca/banco/.gitkeep
+biblioteca/pdf/*
+!biblioteca/pdf/.gitkeep
+biblioteca/texto/*
+!biblioteca/texto/.gitkeep
+biblioteca/audio/*
+!biblioteca/audio/.gitkeep
+biblioteca/imagens/*
+!biblioteca/imagens/.gitkeep
+biblioteca/cache/*
+!biblioteca/cache/.gitkeep
